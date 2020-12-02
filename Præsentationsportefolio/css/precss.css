@@ -1,3 +1,71 @@
 body {
  background-color: #2b6ef1;
 }
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+.forside{
+  font-family:"Grandstander";
+  font-style: italic;
+  font-size: 30px;
+}
+.forside:hover{
+  font-size: 0;
+}
+.forside:hover::after{
+  content: attr(data-hover);
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.ommig{
+  font-family:"Grandstander";
+  font-style: italic;
+  font-size: 30px;
+}
+.ommig:hover{
+  font-size: 0;
+}
+.ommig:hover::after{
+  content: attr(data-hover);
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.port{
+  font-family:"Grandstander";
+  font-style: italic;
+  font-size: 30px;
+}
+.port:hover{
+  font-size: 0;
+}
+.port:hover::after{
+  content: attr(data-hover);
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.kon{
+  font-family:"Grandstander";
+  font-style: italic;
+  font-size: 30px;
+}
+.kon:hover{
+  font-size: 0;
+}
+.kon:hover::after{
+  content: attr(data-hover);
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: bold;
+}
