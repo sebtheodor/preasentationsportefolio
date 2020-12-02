@@ -47,27 +47,23 @@ li{
 
 .he{
   grid-area: he;
-  length: 100%;
   height: 121.8px;
   border:0px;
 }
 
 .na{
   grid-area: na;
-  length:90%;
   height: 324.8px;
   background-color: #F12BC8;
 }
 
 .co{
   grid-area: co;
-  length:90%;
   height: 284.2px;
 }
 
 .fo{
   grid-area: fo;
-  length:100%
   height: 82.2px;
 }
 
@@ -152,6 +148,7 @@ li{
       "fo  fo  ";
 
     }
+  }
 /** tablet version**/
 @media(min-width: 601px) and (max-width: 959px) {
   .wrapper {
