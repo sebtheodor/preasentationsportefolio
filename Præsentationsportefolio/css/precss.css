@@ -28,13 +28,17 @@ ul{
   list-style-type: none;
 }
 
+li{
+  margin: 10px;
+}
+
 .wrapper {
     max-width: 100%;
 
 }
 
 .wrapper > * {
-    border: 2px solid #f08c00;
+    border: 2px solid #F1972B;
     background-color: #83e434;
     padding: 10px;
 }
@@ -43,8 +47,27 @@ ul{
   grid-area: he;
   length: 100%;
   height: 121.8px;
+  border:0px;
 }
 
+.na{
+  grid-area: na;
+  length:90%;
+  height: 324.8px;
+  background-color: #F12BC8;
+}
+
+.co{
+  grid-area: co;
+  length:90%;
+  height: 284.2px;
+}
+
+.fo{
+  grid-area: fo;
+  length:100%
+  height: 82.2px;
+}
 
 .forside{
   font-family:"Grandstander";
@@ -107,10 +130,21 @@ ul{
 }
 /** mobil version**/
 @media(max-width: 600px) {
-  .wrapper {
-
+  h1{
+    display:flex;
+    justify-content: center;
   }
-}
+  .wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+      "he he "
+      "co co "
+      "na na  "
+      "fo  fo  ";
+
+    }
 /** tablet version**/
 @media(min-width: 601px) and (max-width: 959px) {
   .wrapper {
