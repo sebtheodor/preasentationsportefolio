@@ -8,6 +8,8 @@ body {
  background-color: #2b6ef1;
 }
 
+
+
 h1{
   font-family:"Grandstander";
   font-style: italic;
@@ -130,6 +132,11 @@ li{
 }
 /** mobil version**/
 @media(max-width: 600px) {
+  img {
+    width: 75px;
+    height: auto;
+  }
+
   h1{
     display:flex;
     justify-content: center;
