@@ -8,6 +8,12 @@ body {
  background-color: #2b6ef1;
 }
 
+h1{
+  font-family:"Grandstander";
+  font-style: italic;
+  font-size: 32px;
+}
+
 .wrapper {
     max-width: 100%;
 
@@ -17,6 +23,12 @@ body {
     border: 2px solid #f08c00;
     background-color: #83e434;
     padding: 10px;
+}
+
+.header{
+  grid-area: he;
+  length: 100px;
+  height: 121.8px;
 }
 
 ul{
