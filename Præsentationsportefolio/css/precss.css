@@ -8,7 +8,14 @@ body {
  background-color: #2b6ef1;
 }
 
+.title{
+  clear: both;
+}
 
+
+.logo{
+  float: left;
+}
 
 h1{
   font-family:"Grandstander";
@@ -26,12 +33,21 @@ a{
   font-size: 24px;
 }
 
+p{
+  color: black;
+  font-family:"Grandstander";
+  font-style: italic;
+  font-weight:lighter;
+  font-size: 20px;
+}
+
 ul{
   list-style-type: none;
+  margin-top: 20px;
 }
 
 li{
-  margin: 10px;
+  margin-bottom: 30px;
 }
 
 .wrapper {
@@ -40,16 +56,16 @@ li{
 }
 
 .wrapper > * {
-    border: 2px solid #F1972B;
+    border: 8px solid #F1972B;
     background-color: #83e434;
     padding: 10px;
 }
 
 .he{
   grid-area: he;
-  height: 121.8px;
   width: 100%;
   border:0px;
+  margin-bottom: 30px;
 }
 
 .na{
@@ -63,12 +79,17 @@ li{
   grid-area: co;
   width: 90%;
   height: 284.2px;
+  background-color: white;
 }
-
+.ma{
+  grid-area: ma;
+}
 .fo{
   grid-area: fo;
-  width: 100%
+  width: 100%;
   height: 82.2px;
+  border: 0px;
+  margin-top: 30px;
 }
 
 .forside{
@@ -136,14 +157,16 @@ li{
     width: 75px;
     height: auto;
   }
-
+.logo{
+  float: none;
+}
   h1{
     display:flex;
     justify-content: center;
   }
   .wrapper {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 0px;
     grid-template-columns: 1fr 3fr;
     grid-template-areas:
       "he he "
@@ -152,11 +175,46 @@ li{
       "fo  fo  ";
 
     }
+  .na{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   }
+   .ma{
+     display: none;
+   }
+   .he{
+     text-align: center;
+   }
+   .co{
+     margin: auto;
+   }
   }
+
 /** tablet version**/
 @media(min-width: 601px) and (max-width: 959px) {
   .wrapper {
-
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+      "he  he"
+      "na  na "
+      "co  ma "
+      "fo   fo";
+  }
+  .na{
+    width:100%;
+  }
+  .co{
+    height: 512px;
+  }
+  .ma{
+    height: 512px;
+  }
+  .title{
+    clear: none;
+    margin-top: 70px;
   }
 }
 /** browser version**/
