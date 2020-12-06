@@ -240,6 +240,38 @@ nav ul{
 /** browser version**/
 @media(min-width: 960px) {
   .wrapper {
-
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas:
+      "he  na"
+      "co ma"
+      "co  ma "
+      "fo   fo";
+  }
+  .he{
+    height: 120px;
+    display: flex;
+  }
+  .na{
+    width:100%;
+    border:0px;
+    height: 120px;
+  }
+  .co{
+    height: 480px;
+  }
+  .ma{
+    height: 480px;
+  }
+.fo{
+  height: 120px;
+}
+.title{
+  margin-top: 35px;
+  margin-left: 10px;
+}
+img {
+    width: 130px;
+    height: auto;
   }
 }
