@@ -16,14 +16,15 @@ body {
 .logo{
   float: left;
   margin-bottom: 10px;
-  width: 130px;
 }
 
 .wp{
   float: right;
 }
-
-
+.me{
+  flex: auto;
+  padding: 50px;
+}
 h1{
   font-family:"Grandstander";
   font-style: italic;
@@ -31,7 +32,7 @@ h1{
   font-weight: bold;
 }
 
-a{
+h2,a{
   text-decoration: none;
   color: white;
   font-family:"Grandstander";
@@ -39,12 +40,17 @@ a{
   font-weight: 600;
   font-size: 24px;
 }
+h2{
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
 
 p{
   color: black;
   font-family:"Grandstander";
   font-style: italic;
-  font-weight:lighter;
+  font-weight: 500;
   font-size: 20px;
 }
 
@@ -100,8 +106,12 @@ li{
   height: 84px;
   border: 0px;
   margin-top: 30px;
-  display: block;
-  float: left;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+.wpt{
+  margin-top: 70px;
+  font-size: 18px;
 }
 
 .forside{
@@ -171,6 +181,7 @@ li{
   }
 .logo{
   float: none;
+  width: 130px;
 }
 
 nav ul{
@@ -245,7 +256,7 @@ nav ul{
 
   img {
       height: auto;
-      width: 65px;
+      width: 130px;
     }
 }
 /** browser version**/
@@ -270,11 +281,11 @@ nav ul{
   }
   .co{
     height: 480px;
-    margin-left: 3%;
+    margin-left: 15px;
   }
   .ma{
     height: 480px;
-    margin-right: 3%;
+    margin-right: 15px;
   }
 .fo{
   height: 120px;
