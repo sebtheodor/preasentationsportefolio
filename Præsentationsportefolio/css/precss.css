@@ -179,6 +179,12 @@ li{
     width: 65px;
     height: auto;
   }
+  h2 {
+    font-size: 30px;
+  }
+  p{
+    font-size: 15px;
+  }
 .logo{
   float: none;
   width: 130px;
