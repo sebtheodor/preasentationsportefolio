@@ -17,6 +17,13 @@ i{
   font-size: 30px;
 }
 
+.ind{
+  height: 300px;
+  width: auto;
+  float: left;
+  margin-right: 10px;
+}
+
 
 .logo{
   float: left;
@@ -207,10 +214,12 @@ li{
 }
 i{
   font-size: 20px;
+  margin-top: 10px;
 }
 
 #mail {
   font-size: 20px;
+  margin-top: 10px;
 }
 
 nav ul{
