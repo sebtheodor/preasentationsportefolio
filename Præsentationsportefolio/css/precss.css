@@ -104,6 +104,11 @@ li{
     background-color: #83e434;
     padding: 10px;
 }
+.ramme{
+  margin-top: 10px;
+  border: 10px;
+
+}
 
 .he{
   grid-area: he;
