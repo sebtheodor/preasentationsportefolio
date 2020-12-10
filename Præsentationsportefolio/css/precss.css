@@ -38,7 +38,7 @@ i{
 
 .me{
   flex: auto;
-  padding: 50px;
+  margin-top: 50px;
 }
 h1{
   font-family:"Grandstander";
@@ -107,7 +107,6 @@ li{
 .ramme{
   margin-top: 10px;
   border: 10px;
-
 }
 
 .he{
@@ -141,7 +140,6 @@ li{
 .fo{
   grid-area: fo;
   width: 100%;
-  height: 84px;
   border: 0px;
   margin-top: 30px;
   display: inline-flex;
