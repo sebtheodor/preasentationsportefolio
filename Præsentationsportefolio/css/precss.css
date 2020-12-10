@@ -18,8 +18,9 @@ i{
 }
 
 .ind{
-  height: 300px;
-  width: auto;
+  height: auto;
+  width: 40%;
+  min-width: 140px;
   float: left;
   margin-right: 10px;
 }
@@ -33,6 +34,7 @@ i{
 .wp{
   float: right;
 }
+
 .me{
   flex: auto;
   padding: 50px;
@@ -62,6 +64,7 @@ h2{
   color: black;
   text-align: center;
   font-size: 50px;
+
 }
 
 p{
@@ -70,6 +73,7 @@ p{
   font-style: italic;
   font-weight: 500;
   font-size: 20px;
+
 }
 
 nav ul{
@@ -268,6 +272,10 @@ nav ul{
       "na  na "
       "co  ma "
       "fo   fo";
+  }
+
+  h2{
+    font-size: 40px;
   }
 
   .he{
