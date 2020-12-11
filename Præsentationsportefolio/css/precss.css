@@ -5,7 +5,7 @@ padding: 0;
 }
 
 body {
- background-color: #2b6ef1;
+ background-color: #096FED;
 }
 
 .title{
@@ -24,6 +24,13 @@ i{
   max-width: 250px;
   float: left;
   margin-right: 10px;
+}
+
+.video{
+  width: 90%;
+}
+.beskrivelse{
+margin-bottom: 10px;
 }
 
 
@@ -99,13 +106,15 @@ li{
 }
 
 .wrapper > * {
-    border: 8px solid #F1972B;
-    background-color: #83e434;
+    border: 6px solid #ED7D09;
+    background-color: #82E014;
     padding: 10px;
 }
 .ramme{
   margin-top: 10px;
   border: 10px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .he{
@@ -119,7 +128,7 @@ li{
   grid-area: na;
   height: 324.8px;
   width: 90%;
-  background-color: #F12BC8;
+  background-color: #ED09D5;
 }
 
 .co{
@@ -224,6 +233,7 @@ li{
   float: none;
   width: 130px;
 }
+
 i{
   font-size: 20px;
   margin-top: 10px;
@@ -294,7 +304,6 @@ nav ul{
     border:0px;
     height: 122.88px;
   }
-
   .co{
     height: 512px;
     margin-top: 30px;
