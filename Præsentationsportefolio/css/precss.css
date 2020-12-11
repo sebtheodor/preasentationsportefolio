@@ -144,6 +144,11 @@ li{
 .ma{
   grid-area: ma;
 }
+.navn{
+  margin-top: 30px;
+  font-size: 30px;
+  color: black;
+}
 .maskot{
   height: 360px;
   width: auto;
