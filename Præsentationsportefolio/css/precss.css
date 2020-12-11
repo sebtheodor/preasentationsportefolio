@@ -29,6 +29,10 @@ i{
 .video{
   width: 90%;
 }
+.billeder{
+  width: 90%;
+  height: auto;
+}
 .beskrivelse{
 margin-bottom: 10px;
 }
