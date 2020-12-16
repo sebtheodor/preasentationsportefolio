@@ -231,7 +231,7 @@ li{
 /** mobil version**/
 @media(max-width: 600px) {
   img {
-    width: 65px;
+    width: 80px;
     height: auto;
   }
   h2 {
@@ -262,6 +262,10 @@ nav ul{
   h1{
     display:flex;
     justify-content: center;
+  }
+  .wpt{
+    margin-top: 30px;
+    font-size: 18px;
   }
   .wrapper {
     display: grid;
